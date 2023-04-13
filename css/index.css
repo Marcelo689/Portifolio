@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #410b92;
+}
+
+li{
+    font-weight: bolder;
+}
+
+.li-a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar{
+    text-align: center;
+    background-color: #410b92;
+    min-height: 205px;
+}
+
+.nav-bar-links{
+    display: flex;    
+    justify-content: center;
+}
+
+.title{
+    display: block;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5vh;
+}
+
+.btn-a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    height: fit-content;
+    padding:  7px 15px;
+    text-decoration: none;
+}
+
+.btn-a:hover{
+    color: #410b92;
+    transition: 0.4s;
+}
+
+.dropdown-menu{
+    height: 32px;
+    overflow: hidden;
+}
+
+.dropdown-menu:hover a i{
+    color: #410b92;
+    transition: 0.4s;
+}
+.dropdown-menu:hover {
+    height: 140px;
+    transition: 0.8s;
+}
+
+.dropdown-menu > a{
+    display: flex;
+    width: max-content;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    align-content: center;    
+}
+
+.dropdown-menu > li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+    margin-left:5px;
+    list-style-type: none;
+    background-color: white;
+}
+
+.dropdown-menu li:hover{
+    background-color: darkslateblue;
+    color: white;
+    cursor: pointer;
+}
+.dropdown-menu li:hover a{
+    color: white;
+}
+/* Fotos e cargo */
+
+.imagens-e-cargo{
+    display: flex;
+    min-width: 1130px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.foto-perfil{
+    width: 200px;
+    border:4px solid black;
+    margin: 50px;
+    box-shadow: 2px 2px 10px 4px;
+}
+
+.cargo-texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+.foto-logo-progLang{
+    width: 200px;
+    margin: 50px;
+}
+
+/* Skills */
+
+.skills{
+    flex: 1;
+    display: flex;
+    background-color: white;
+    min-width: 1130px;
+}
+
+.soft-skills-container{
+    display: flex;
+    flex:0.5;
+    flex-direction: column;
+}
+
+.soft-skill-texto{
+    text-align: left;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom:20px;
+    color: #147c47;
+}
+.soft-skills-container li{
+    text-align: left;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #324e3b;
+}
+
+
+.soft-skills-container li:last-child{
+    margin-bottom:10px;
+}
+
+.hard-skills-container{
+    display: flex;
+    flex:0.5;
+    flex-direction: column;
+}
+
+.hard-skill-texto{
+    text-align: left;
+    margin-top: -150px;
+    margin-left:-240px;
+    font-family: fantasy;
+    color: #7c1414;
+}
+
+.hard-skills-container li{
+    text-align: left;
+    margin-left:-200px;
+    font-size: 1.5rem;
+    font-family: fantasy;
+    color: #4d2222;
+}
+
+.tecnologias-texto{
+    color: #410b92;
+    font-family: fantasy;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    margin-top: 40px;
+    margin-bottom:20px
+}
+
+.tecnologias li{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    color: #2c1056;
+}
+
+.tecnologias li:last-child{
+    margin-bottom:10px;
+}
+
+.footer{
+    padding-top: 5vh;
+    text-align: center;
+    color: #a6a6a6;
+}
